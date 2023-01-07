@@ -20,7 +20,7 @@ Dans le programme principal, instanciez un `Rectangle` et un `Carre` et `affiche
 
 Définir une classe `Point` avec un constructeur fournissant les coordonnées par défaut d’un point du plan (par exemple : `x = 0.0` et `y = 0.0`).
 
-Définir une classe `Segment` dont le constructeur possède `quatre paramètres` : deux pour l’`origine` et deux pour l’`extrémité`. Ce constructeur définit deux attributs : `orig` et `extrem`, instances de la classe Point. De cette manière, vous concevez une classe composite : la classe `Segment` est composée de deux instances de la classe 'Point'.
+Définir une classe `Segment` dont le constructeur possède `quatre paramètres` : deux pour l’`origine` et deux pour l’`extrémité`. Ce constructeur définit deux attributs : `orig` et `extrem`, instances de la classe Point. De cette manière, vous concevez une classe composite : la classe `Segment` est composée de deux instances de la classe `Point`.
 
 Ajouter une méthode d’`affichage`.
 
